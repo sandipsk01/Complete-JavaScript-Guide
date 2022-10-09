@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects and Arrays</title>
+</head>
+<body>
+    <div class="container">
+        This is simple html
+    </div>
+    <script>
+        let newVar1 = 1;
+        let newVar2 = 'Sandip';
+        let newVar3 = '2'==2;
+        console.log(newVar3);
+        let newVar4 = '2'===2;   //it will compare elements directly without changing the datatype.
+        console.log(newVar4);
+        let newVar5 = undefined;
+        let newObj = {'name':'Shrinivas', 'salary':350000, 'company':'Krios'};
+        console.log(newObj);
+        console.log(newObj.name);
+        let newArray = [1,'Sandip',true,undefined];   //array is also a type of object.
+        console.log(newArray);
+        console.log(newArray[1]);
+        let newArray1 = new Array(23);  //to make array of 23 empty elements.
+        console.log(newArray1);
+        let newArray2 = new Array(5, 1, 'Ashish', undefined);
+        console.log(newArray2);
+        console.log(newArray2.length);
+        console.log(newArray2.sort());
+        newArray2.push('Pushed');   //to add itwm at the end
+        console.log(newArray2);
+    </script>
+</body>
+</html>

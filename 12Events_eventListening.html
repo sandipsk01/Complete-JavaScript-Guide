@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events and Event Listening</title>
+    <style>
+        #btn{
+            padding: 10px 15px;
+            background-color: red;
+            color: white;
+            border: 2px solid black;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Here is a list of some common HTML events-
+
+    Onchange-  An HTML element has been changed
+    Onclick- The user clicks an HTML element
+    Onmouseover-   The user moves the mouse over an HTML element
+    Onmouseout-The user moves the mouse away from an HTML element
+    Onkeydown- The user pushes a keyboard key
+    Onload- The browser has finished loading the page -->
+    <h1>This is a Heading</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate recusandae odio, eveniet quibusdam provident voluptatum quae sequi veniam ab eos quos ex doloribus cum odit ipsam molestiae cumque corporis maxime! Molestias, tempora, quibusdam corporis minus ab nobis officia dolore accusamus ullam est nihil quod recusandae debitis repellendus. Enim, nisi culpa? Magnam aliquid inventore, exercitationem perspiciatis magni libero quo assumenda at, debitis deserunt ipsam nostrum nisi cum dolores! Autem tenetur debitis architecto numquam doloribus, eligendi, libero consequatur incidunt ex corporis est, explicabo quisquam nobis unde possimus quam iusto ipsa quia eum perferendis magnam? Sint nam dolorem esse a in excepturi quam soluta nobis! Mollitia accusamus optio ex et excepturi provident libero alias sed quia minima, saepe voluptates dignissimos sapiente vitae, vel, totam dolores! Ducimus earum quod molestiae magnam consequatur nostrum quo at similique neque beatae voluptates esse minus dolores sapiente quibusdam quidem cumque praesentium eius, omnis blanditiis. Eius cum quia perferendis. Quis repellat non porro, obcaecati laudantium, facere, quisquam tenetur ab perspiciatis quia labore consequuntur deserunt. Vel eum et, placeat magni velit eligendi repudiandae ea corporis ex officiis, officia dolorem similique cupiditate blanditiis voluptas recusandae? Nostrum hic sapiente temporibus tenetur minus rem expedita perferendis voluptatem minima iste quis, optio animi atque architecto suscipit eveniet tempore unde facere facilis similique illum laboriosam dolorum? Vitae rem vel fugiat laboriosam veritatis, architecto numquam cupiditate, quaerat, placeat necessitatibus eum. Aut maxime ratione exercitationem magnam officia perspiciatis voluptas repellendus tenetur voluptates doloribus ut, modi natus aliquam, reprehenderit enim! Ipsa qui expedita, autem molestiae natus ratione beatae voluptatum veniam consequuntur aliquid similique. Officia, amet eveniet? Rerum omnis natus architecto id nihil quae, incidunt vero nulla esse perferendis dicta accusamus accusantium dolorem fugit officiis ipsam, deleniti in consequatur? Recusandae optio tenetur eveniet. Ut magnam provident modi placeat esse molestias. Corrupti labore, voluptatem quas est aut doloribus ipsa.</p>
+    <button id="btn" onclick="toggeleHide()">Show/Hide</button>
+    <script>
+        let para = document.getElementById('para');
+
+        function toggeleHide(){
+            if(para.style.display != 'none'){
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display = 'block';
+            }
+        }
+
+        para.addEventListener('mouseover', function position(){ alert('Mouse inside block');})
+        para.addEventListener('mouseout', function position(){ console.log('Mouse outside block');})
+    </script>
+</body>
+</html>

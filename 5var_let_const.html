@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var, let, const Scope</title>
+</head>
+<body>
+    <div class="container">
+        <h1>This is a heading</h1>
+    </div>
+    <script>
+        var a='u';    //scope of var is global, it can be chsnged everywhere
+        console.log(a);
+        let b='u';    //Scope of let is global.
+        {
+            let b='u1';  //But if we declare the let inside any function, then its scope will remain under that function. So use let to avoid function
+            console.log(a);
+        }
+        const c='This can not be changed';   //Value can be changed
+        console.log(c);
+        c='This can not be changed bro';
+    </script>
+</body>
+</html>

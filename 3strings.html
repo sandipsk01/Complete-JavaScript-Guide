@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur molestias quos nisi commodi fuga eaque fugiat impedit quam, nostrum vel nobis laborum ducimus dicta labore officia aperiam soluta doloribus nesciunt dolorum. Sequi explicabo unde excepturi doloremque doloribus numquam beatae obcaecati.</p>
+    </div>
+    <script>
+        var name='Sandip';
+        var about='I am working in TCS';
+        //String Constructor
+        var stringconstructor= new String("String Constructor");
+        console.log(stringconstructor);
+        // Use ${} to get value of variables
+        var myInfo=`My name is ${name} and ${about}`;
+        console.log(myInfo);
+        //Escape Sequence like \n , \t , etc,,.
+        console.log("fsfsfssf sdjsfsjd fsfsdfs fsfgegg edgdgd dgbdg \ngfsfdd \t\tsdsdf");
+        //To create HTML
+        document.getElementById('content').innerHTML='<h3>This is heading 3</h3>';
+    </script>
+</body>
+</html>
