@@ -13,13 +13,20 @@
     <script>
 
         const arr=[1,2,3,4];
-        function restOperator(...vals){    //rest operator when not sure of no. of args
+        function restOperator(...vals){    //rest operator: when not sure of no. of args
             for(let i of vals){
                 arr.push(i);
             }
             console.log(arr)
         }
         restOperator(5,6,7,8);
+
+        var arr1=[1,2,3];
+        console.log(arr1);
+        var arr2=[...arr1];     // Rest Operator: Makes shallow copy of array or change in arr1 will not affect arr2;
+        arr1.push(4);
+        console.log(arr1);
+        console.log(arr2);
         
         let newVar1 = 1;
         let newVar2 = 'Sandip';
