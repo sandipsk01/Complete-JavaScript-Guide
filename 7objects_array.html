@@ -11,6 +11,16 @@
         This is simple html
     </div>
     <script>
+
+        const arr=[1,2,3,4];
+        function restOperator(...vals){    //rest operator when not sure of no. of args
+            for(let i of vals){
+                arr.push(i);
+            }
+            console.log(arr)
+        }
+        restOperator(5,6,7,8);
+        
         let newVar1 = 1;
         let newVar2 = 'Sandip';
         let newVar3 = '2'==2;
