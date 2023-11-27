@@ -24,9 +24,11 @@
         var arr1=[1,2,3];
         console.log(arr1);
         var arr2=[...arr1];     // Rest Operator: Makes shallow copy of array or change in arr1 will not affect arr2;
+        var merge=[...arr1, ...arr2];    //merge
         arr1.push(4);
         console.log(arr1);
         console.log(arr2);
+        console.log(merge);
         
         let newVar1 = 1;
         let newVar2 = 'Sandip';
