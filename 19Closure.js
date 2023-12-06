@@ -1,3 +1,4 @@
+// Closure retains access to the variable from its outer scope even after the outer function finished execution.
 // Closure will remember lexical environment variables
 let a="global";
 
