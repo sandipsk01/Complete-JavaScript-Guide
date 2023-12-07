@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>String Functions</title>
-</head>
-<body>
-    <div class="container">
-        <h1>This is heading</h1>
-    </div>
-    <script>
+
         var str = "This is a String"
         console.log(str);
 
@@ -66,6 +54,3 @@
         //To get charCode using index
         var extractcharcode = str.charCodeAt(0);
         console.log(extractcharcode);
-    </script>;
-</body>
-</html>
