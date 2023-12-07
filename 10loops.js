@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loops</title>
-</head>
-<body>
-    <div class="container">
-        This is Simple HTML
-    </div>
-    <script>
+
         let i=0;
         for(i=0;i<4;i++){
             console.log('Value of i is '+ i);
@@ -31,7 +19,7 @@
 
         // for in loop used to iterate over objects
         let myInfo = {name: 'Sandip', salary: 20, company: 'TCS'};
-        for(key in myInfo){
+        for(key in myInfo){    //key is string type by default
             console.log(`My ${key} is ${myInfo[key]} .`);
         };
         
@@ -46,6 +34,4 @@
         do{
             console.log(n +' is less than 5, we are using do while loop.');
         }while(n<5);
-    </script>
-</body>
-</html>
+    
