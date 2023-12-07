@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varisbles and Data types</title>
-    <script>
+
         var a=1
         var b="One"
         console.log(a)
@@ -37,14 +30,5 @@
         console.log("The value of num2-- is "+ (num2--));
         console.log("Now the value of num1 is " + (num2));
         console.log("The value of --num2 is "+ (--num2));
-    </script>
-</head>
-<body>
-    <div class="container">
-        <h1>This is heading</h1>
-    </div>
-    <div class="content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex consequuntur nihil ea doloremque reprehenderit corrupti esse suscipit deserunt cumque cupiditate dolor, modi labore quis commodi vero dolore deleniti. Nam quo vitae eligendi consectetur debitis, reiciendis temporibus sapiente natus recusandae asperiores!</p>
-    </div>
-</body>
-</html>
+   
+  
