@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Json Tutorial</title>
-</head>
-<body>
-    <div class="container">This is my container</div>
-    <script>
+
         let jsonObj = {
             name: "Sandy",
             channel: "CWH",
@@ -22,11 +13,4 @@
         console.log(myJsonStr)
 
         newJsonObj = JSON.parse(myJsonStr);
-        console.log(newJsonObj)
-
-        
-
-
-    </script>
-</body>
-</html>
+        console.log(newJsonObj);
