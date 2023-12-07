@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arrow Functions</title>
-</head>
-<body>
-    <div class="container">
-        This is about arrow function
-    </div>
-    <script>
+
         // function greet(){
         //     console.log("Good morning my friend!");
         // }
@@ -49,6 +37,4 @@
 
             console.log(' ')
         }
-    </script>
-</body>
-</html>
+   
