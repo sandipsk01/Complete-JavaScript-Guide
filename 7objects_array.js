@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Objects and Arrays</title>
-</head>
-<body>
-    <div class="container">
-        This is simple html
-    </div>
-    <script>
+
 
         const arr=[1,2,3,4];
         function restOperator(...vals){    //rest operator: when not sure of no. of args
@@ -23,7 +11,7 @@
 
         var arr1=[1,2,3];
         console.log(arr1);
-        var arr2=[...arr1];     // Rest Operator: Makes shallow copy of array or change in arr1 will not affect arr2;
+        var arr2=[...arr1];     // Spread Operator: Makes shallow copy of array or change in arr1 will not affect arr2;
         var merge=[...arr1, ...arr2];    //merge
         arr1.push(4);
         console.log(arr1);
@@ -51,6 +39,4 @@
         console.log(newArray2.sort());
         newArray2.push('Pushed');   //to add itwm at the end
         console.log(newArray2);
-    </script>
-</body>
-</html>
+   
