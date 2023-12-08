@@ -1,1 +1,1 @@
-# Javascript_basics
+# Javascript
