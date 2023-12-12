@@ -22,7 +22,7 @@ Understanding the use of var, let, and const.
 ### [06If_else_switch_case.js](./06If_else_switch_case.js)
 Conditional statements in JavaScript.
 
-### [07array_Methods.js](./07array_methods.js)
+### [07array_Methods.js](./07array_Methods.js)
 Array methods like map, reduce, filter, and find.
 
 ### [07objects_array.js](./07objects_array.js)
