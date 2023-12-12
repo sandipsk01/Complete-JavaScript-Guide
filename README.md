@@ -1,6 +1,6 @@
 # Complete JavaScript Guide
 
-Welcome to the "Javascript_basics" repository! This collection of files is designed to help you understand and practice fundamental concepts in JavaScript.
+Welcome to the "Complete JavaScript Guide" repository! This collection of files is designed to help you understand and practice fundamental concepts in JavaScript.
 
 ## Table of Contents
 
