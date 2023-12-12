@@ -1,4 +1,4 @@
-//Currying: use function more dynamically
+//Currying: It is a technique to convert a function with multiple args into a sequence of functions, each taking single arg. to use function more dynamically
 function power(a){
   return function(b){
     return b**a;
