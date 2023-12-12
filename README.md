@@ -1,4 +1,4 @@
-# JavaScript Basics Repository
+# Complete JavaScript Guide
 
 Welcome to the "Javascript_basics" repository! This collection of files is designed to help you understand and practice fundamental concepts in JavaScript.
 
