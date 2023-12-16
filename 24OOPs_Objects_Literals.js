@@ -1,4 +1,5 @@
 // Object Literal : Object creation method
+// With assignment operator object create shallow copy
 const movie = {
   title: 'The Avengers',
   year: 2012,
