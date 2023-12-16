@@ -37,13 +37,13 @@ Working with alert, prompt, and confirm in JavaScript.
 ### [10loops.js](./10loops.js)
 Different types of loops in JavaScript.
 
-### [11manipulating_dom.html](./11manipulating_dom.html)
+### [11Manipulating_dom.html](./11Manipulating_dom.html)
 Manipulating the Document Object Model (DOM) in JavaScript.
 
-### [12events_eventListening.html](./12events_eventListening.html)
+### [12Events_eventListening.html](./12Events_eventListening.html)
 Handling events and event listening in JavaScript.
 
-### [13settimeout_setinterval.html](./13settimeout_setinterval.html)
+### [13setTimeout_setinterval.html](./13setTimeout_setinterval.html)
 Using setTimeout and setInterval in JavaScript.
 
 ### [14date.html](./14date.html)
@@ -58,22 +58,25 @@ Exploring the Math object in JavaScript.
 ### [17json.js](./17json.js)
 Working with JSON in JavaScript.
 
-### [18set.js](./18set.js)
+### [18Set.js](./18Set.js)
 Understanding and using the Set object in JavaScript.
 
-### [19closure.js](./19closure.js)
+### [19Closure.js](./19Closure.js)
 Understanding closures in JavaScript.
 
-### [20iife.js](./20iife.js)
+### [20IIFE.js](./20IIFE.js)
 Understanding Immediately Invoked Function Expressions (IIFE) in JavaScript.
 
-### [21higherorderfunctions.js](./21higherorderfunctions.js)
+### [21HigherOrderFunctions.js](./21HigherOrderFunctions.js)
 Understanding and using higher-order functions in JavaScript.
 
-### [22currying.js](./22currying.js)
+### [22Currying.js](./22Currying.js)
 Understanding currying in JavaScript.
 
 ### [23this.js](./23this.js)
+Understanding the 'this' keyword in JavaScript.
+
+### [24OOPs_Objects_Literals.js](./24OOPs_Objects_Literals.js)
 Understanding the 'this' keyword in JavaScript.
 
 ## Contributing
