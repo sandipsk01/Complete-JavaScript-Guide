@@ -1,3 +1,6 @@
+// Constructor functions can be defined either by using a function declaration or expression with parameters and setting properties using this or by returning a new object from a function expression
+
+//Can not use arrow function to create constructor, because they do not have their own 'this' as they are lexically bind this to enclosing scope.
 function movie(title, year) {
   const movieObj = {
     title: title,
