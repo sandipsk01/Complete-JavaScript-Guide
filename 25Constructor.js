@@ -38,3 +38,12 @@ function Movie(title, year) {
 const movie2 = new Movie('Avatar', 2013);
 console.log(movie2);
 movie2.getDetails();
+
+// Constructor function expression
+let Car=function(make, model, year){
+  return{
+    make: make,
+    model: model,
+    year: year
+  }
+}
