@@ -21,3 +21,8 @@ console.log(movie2);
 const car={ name: "BMW",};
 // Standard prototype checking method
 Object.getPrototypeOf(car);
+
+// Array prototype
+let arr=[1,2,3,5,6];
+console.log(arr.__proto__);   //constructor: f Array()
+console.log(arr.__proto__.__proto__);   //constructor: f Object()
