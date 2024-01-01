@@ -7,5 +7,14 @@
 // }
 
 // Class declaration
-class Vehicle{
+class Student{
   name;
+ constructor(name) {
+  this.name=name;
+ };
+ getDetails() {
+  console.log(`Student name is ${this.name}.`);
+ }
+}
+const student1=new Student("John");
+student1.getDetails();
