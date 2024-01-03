@@ -7,7 +7,7 @@ const obj1={
   }
 }
 
-//Shallow copy: Copying first layer values
+//Shallow copy: Copying first layer elements and reference of underlying elements
 const obj2={...obj1};
 // const obj2=Object.assign({},obj1);
 // const obj2=obj1.slice();
@@ -16,7 +16,7 @@ obj2.marks.maths=70;  // Will effect obj1: shallow copy doesn't work on Inner la
 console.log(obj1);
 console.log(obj2);
 
-//Deep Copy
+//Deep Copy: Copying all elements, including underlying elements
 const obj3=JSON.parse(JSON.stringify(obj1));
 obj3.name="Sandy";
 obj3.marks.maths=90;
