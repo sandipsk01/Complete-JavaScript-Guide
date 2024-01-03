@@ -1,3 +1,4 @@
+// Getter and Setter are only ways to access and modify the private property of encapsulated class.
 // When you want use the method as property.
 // Getter: Get can not have any parameter.
 // Setter: set should at least have single parameter.
