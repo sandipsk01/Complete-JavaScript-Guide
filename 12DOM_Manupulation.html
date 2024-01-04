@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h1 class="first" onclick="alert('this is the first heading')">Somethiing</h1>
+    <h1 class="second">Document Object Model</h1>
+    <p id="para"> Lets Learn more about DOM manipulation here..</p>
+    <div>
+        <h2>Heading2</h2>
+    </div>
+
+    <script>
+        const btn = document.createElement('button');
+        btn.textContent = 'Click here';
+        btn.className = 'btn1';
+
+        const division = document.querySelector('div');
+        division.appendChild(btn);
+
+        //removing heading on the click of a button
+        btn.addEventListener('click', () =>
+            document.querySelector('h2').remove()
+        );
+
+        //Event Listener on Para
+        const p = document.querySelector('p');
+        p.addEventListener('mousedown', function () {
+            p.style.backgroundColor = 'yellow';
+        });
+        
+        p.addEventListener('mouseup', function () {
+            p.style.backgroundColor = '';
+        });
+
+        //keyboard Event
+            document.body.addEventListener('keydown',(event) => {
+                console.log('keyPressed');
+                console.log(event.keyCode);
+              }
+            );
+
+
+        // document.querySelector('h2').remove();
+    </script>
+</body>
+</html>
