@@ -1,0 +1,54 @@
+<!-- API: It is a set of rules and protocols that allows different software applications to communicate with each other. -->
+<!-- Document Object Model : It is representation of HTML as nodes and objects in javascript -->
+<!-- Window Object Model > Document Object Model -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manupulating DOM</title>
+</head>
+<body>
+    <div id="main" class="container">
+        <ul id="nav">
+            <li>Home</li>
+            <li>Services</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div class="container">
+        Another Container
+    </div>
+    <script>
+        // Accesing modes
+        documnet.body.childNodes;   //empty spaces between tags considered as text
+        document.body.children;    // only html tags
+        document.body.firstChild;        //empty spaces between tags considered as text
+        document.body.firstElementChild;
+        
+        //To acces nodes using selectors
+        let main=document.getElementById('main');
+        console.log(main);
+
+        let navas=document.getElementById('nav');
+        console.log(nav);
+
+        let containers=document.getElementsByClassName('container');
+        console.log(containers);
+
+        console.log(document.getElementsByTagName('li'));
+        //gives only first matching node
+        let sel=document.querySelector('#nav>li');
+        console.log(sel);  //returns node
+
+        //gives all matching nodes
+        let selAll=document.querySelectorAll('#nav>li');  //return nodelist
+        console.log(selAll);
+
+        // Styling
+        main.style.color='red';
+    </script>
+</body>
+</html>
