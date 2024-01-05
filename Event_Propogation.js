@@ -20,7 +20,7 @@
     </div>
 
     <script>
-
+// Event Delegation: The prpcess of attaching event handler to parent element and handling events taht occurs on it child elements
 //Event Propogation
 
 //Bubbling: If the same event handler is is linked to inner & outer nodes then eventhandler of outer nodes will automatucally get executed when event occurs on inner node.
