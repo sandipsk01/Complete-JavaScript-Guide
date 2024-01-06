@@ -23,3 +23,12 @@ Promise.all([promise1, promise2])    // though promise2 completes first it waits
 
 Promise.race([promise1, promise2])    // resolves with first completed promise
   .then((results)=>console.log(results));   // 2 1
+
+
+// fetch and json also returns promise
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => console.log(json))
+
+// PUT request
+fetch('https://api.example.com/data', {method: PUT} )
