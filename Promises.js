@@ -1,6 +1,8 @@
 // Promise is an Object returned by an asynchronous operation, which represents the current state of operation. (pending, fullfilled, rejected)
 
 //The Promise() constructor creates Promise objects. It is primarily used to wrap callback-based APIs that do not already support promises.
+// throw new Error("dsdsadad");
+// Chaining Promise: If promise inside promise return it and add .then method after .then of first promise and at last add catch which will capture error for all.
 const promise1 = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve(1);
@@ -9,8 +11,8 @@ const promise1 = new Promise((resolve, reject) => {
 
 promise1
 .then((result) => console.log(result))      //to use resolve value use .then
-.catch((error) => console.error("Failed to read data"))
-.finally(()=>console.log("Request Completed"));
+.catch((error) => console.error("Failed to read data"))    //When error occured
+.finally(()=>console.log("Request Completed"));   // Execute at last regardles failure of success
 
 const promise2 = new Promise((resolve, reject) => {
   setTimeout(() => {
