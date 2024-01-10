@@ -24,7 +24,7 @@ Promise.all([promise1, promise2])    // though promise2 completes first it waits
   .then((results)=>console.log(results));   //[1,2]
 
 Promise.race([promise1, promise2])    // resolves with first completed promise
-  .then((results)=>console.log(results));   // 2 1
+  .then((results)=>console.log(results));   // 2
 
 
 // fetch and json also returns promise
